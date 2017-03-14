@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Breakout</string>
+    <string name="title_activity_add_score">AddScoreActivity</string>
+    <string name="large_text">
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="view_first_name">First Name</string>
+    <string name="view_last_name">view_last_name</string>
+    <string name="emptyString">enter</string>
+    <string name="add_or_view_activity">add_view_activity</string>
+    <string name="score_list_activity">score_list_activity</string>
+    <string name="mainpage">mainpage</string>
+    <string name="Breakout">Breakout</string>
+</resources>

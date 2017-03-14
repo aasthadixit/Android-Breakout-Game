@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root_layout"
+    tools:context=".Paddle">
+
+    <RelativeLayout
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:background="#7f7f7f"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true">
+
+        <SeekBar
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:layout_alignParentStart="true"
+            android:max="1200"
+            android:progress="300"
+            android:indeterminate="false" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="20dp"
+            android:id="@+id/highscore"
+            android:paddingRight="@dimen/app_bar_height"
+            android:src="@drawable/home"
+            android:layout_below="@+id/seekBar"
+            android:layout_alignParentEnd="true"
+            android:maxWidth="50dp" />
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

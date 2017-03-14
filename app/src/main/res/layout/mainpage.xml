@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/breakquest_large"
+    >
+
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="High Score"
+        android:id="@+id/high_score"
+        android:layout_gravity="bottom"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@+id/start_game"
+        android:layout_alignStart="@+id/start_game"
+        android:layout_alignEnd="@+id/start_game"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp" />
+
+    <Button
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Start Game"
+        android:id="@+id/start_game"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="100dp"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

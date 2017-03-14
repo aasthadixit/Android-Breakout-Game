@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.kunalkrishna.breakout">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/breakquest_large"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name=".ADD_Score_Activity"
+            android:label="@string/add_or_view_activity"
+            android:parentActivityName=".MainPage">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainPage"/>
+            >
+        </activity>
+
+        <activity android:name=".Score_List_Activity"
+            android:label="@string/score_list_activity"
+            android:parentActivityName=".MainPage">
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainPage"/>
+            >
+        </activity>
+
+
+
+        <activity android:name=".MainPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+        <activity android:name=".Breakout"
+            android:label="@string/Breakout"
+            android:parentActivityName=".MainPage"
+            android:screenOrientation="portrait"
+            >
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainPage"/>
+            >
+        </activity>
+
+    </application>
+
+</manifest>
